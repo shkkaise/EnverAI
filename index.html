@@ -1,200 +1,358 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <!-- Google tag (gtag.js) -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQ9QVB8R6B"></script>
-     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-CQ9QVB8R6B');
-    </script>
-    <title>Enver AI-Tech | Launching Soon</title>
-    <style> 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #95adca;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Enver-AI Tech</title>
+  <link rel="icon" href="images/E_Logo.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:wght@400;500;600;700&family=Lugrasimo&family=Merriweather+Sans:wght@400;500;700&family=Montserrat:wght@400;500;600&family=Noto+Sans:wght@400;500;600;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Raleway:wght@100;200;400;600;800&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-        .container {
-            text-align: center;
-        }
+<script type = "text/javascript">
+  var dt = new Date("December 25, 1995 23:15:00");
+  document.write("getFullYear() : " + dt.getFullYear() ); 
+</script>   
 
-        h1 {
-            font-size: 56px;
-            color: #070000;
-            margin-bottom: 20px;
-        }
+<!-- <script>
+const d = new Date()
+let year = d.getFullYear()
+console.log(year)
+</script> -->
 
-        p {
-            font-size: 32px;
-            color: #d90404;
-            margin-bottom: 40px;
-        }
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/oldstyles.css">
+  <!-- <link rel="stylesheet" media="screen and (min-device-width:800px)" href="style800.css" /> 
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">-->
 
-        .countdown {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .countdown div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0 20px;
-        }
-
-        .countdown div span {
-            font-size: 48px;
-            color: #333;
-        }
-
-        .countdown div small {
-            font-size: 14px;
-            color: #110f0f;
-        }
-
-        .quote {
-            font-size: 22px;
-            color: #000;
-            margin-top: 20px;
-            display: none;
-            position: fixed;
-            max-width: 80%;
-            white-space: normal;
-            word-wrap: break-word;
-        }
-    </style>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ip-geolocation-api-jquery-sdk@1.1.0/ipgeolocation.min.js"></script>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-   
 <body>
-    <div class="container">
-        <h1>Welcome to Enver AI-Tech</h1>
-        <p> Inauguration delayed, due to delay in few Govt. Clearances </p>
-         <p> Keep visiting ..Please, we'll be launching soon ... </p>
-        <div class="countdown">
-            <div>
-                <span id="days">00</span>
-                <small>Days</small>
-            </div>
-            <div>
-                <span id="hours">00</span>
-                <small>Hours</small>
-            </div>
-            <div>
-                <span id="minutes">00</span>
-                <small>Minutes</small>
-            </div>
-            <div>
-                <span id="seconds">00</span>
-                <small>Seconds</small>
-            </div>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar bg-light navbar-expand-lg navbar-light fixed-top bg-body-tertiary">
+        <a class="navbar-brand" href="#">
+          <img src="images/Enver_logo1.png" width="60" height="60" class="d-inline-block align-top" alt="Enver_logo">
+        <a class="navbar-brand" href="">Enver-AI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AboutUs">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#AISolutions">AI Solutions</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#Products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:3000/login">Login</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactUs">Contact Us</a>
+            </li>
+          </ul>
+
         </div>
-        <div class="quote"></div>
+      </nav>
+      </div>
+    <!-- </section> -->
+    <!-- Title -->
+    <section>
+      <div class= "landing page1" id="page1Landing">
+            <div class="launch-img oh">
+              <!-- <h1> This is a TEST Content</h1> -->
+              <img class="title-image izo" src="images/Enver_Screen1.png" alt="Enver_Image1">
+            </div>
+            <div class="launch-txt">
+              <!-- <h1> This is a TEST Content2</h1> -->
+              <h1 class="small-heading">WELCOME,</h1> <br>
+              <h1 class="small-heading">Experience, personalized AI - TECH Consulting.</h1> <br>
+              <h1 class="small-heading">Let us build the the nextGen AI - based applications for your success!</h1>
+              <br>
+              <br>
+              <button type="button" class="btn btn-dark">Explore More</button>
+            </div>
+      </div>
+
+    </section>
+
+    <!-- About Us -->
+    <section>
+      <div class= "AboutUs" id="AboutUs">
+            <div class="AboutUs">
+              <!-- <h1> This is a TEST Content</h1> -->
+              <img class="AboutUs-img" src="images/Image3.jpg" alt="ServerRacks">
+            </div>
+            <div class="AboutUs-txt">
+              <!-- <h1> This is a TEST Content2</h1> -->
+              <h1 class="About-h1">AI - Tech Startup,</h1> <br>
+              <h1 class="About-h1">Revolutionizing the Future with AI Technology.</h1> <br>
+              <h1 class="About-h1">Discover cutting-edge solutions that drive innovation, empower businesses, and enhance lives.</h1>
+              <br>
+              <br>
+              <!-- <button type="button" class="btn btn-dark">Explore More</button> -->
+            </div>
+      </div>
+
+    </section>
+
+    <!-- AISolutions -->
+    <section>
+      <div class= "AISolutions" id="AISolutions">
+        <div class="AISol-txt">
+          <!-- <h1> This is a TEST Content2</h1> -->
+          <h1 class="AISol-h1">AI - Solutions:<br><br>
+          Revolutionizing the Future with AI Technology.
+          Discover cutting-edge solutions that drive innovation, empower businesses, and enhance lives.</h1>
+          <h1 class="AISol-h1"> These are just a few examples, and AI technologies have the potential 
+            to transform and benefit numerous other industries as well.</h1>
+        </div>
+        <!---->
+        <div class="AISolCards auto-grid">
+          <!-- <div class="ASolCard1"> -->
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/HealthCare.png" alt="HealthCare"> HealthCare
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">HealthCare:</p>
+                <p class="Onerem">AI can assist in....</p> 
+                <p class="Onerem">Medical Diagnosis, Drug Discovery,
+                Personalized Medication, Tele-Medicine,
+                and Patient Monitoring.</p>
+             </div>
+            </div>
+          </div>
+        
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/Finance.png" alt="Finance"> Finance
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">Finance:</p>
+                <p class="Onerem">AI can be used for....</p>
+                <p class="Onerem">Fraud Detection, Risk Assessment,
+                Algorithmic trading, Chatbots for Customer Support,
+                and personalized Financial Recommendations.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/MFG.png" alt="Manufacturing"> Manufacturing
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">Manufacturing:</p>
+                <p class="Onerem">AI can ....</p>
+                <p class="Onerem">Optimize production processes, 
+                  Predict equipment failures, Improve supply chain management, 
+                  and Enable autonomous robotics.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/ECom.png" alt="E-Commerce"> E-Commerce
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">E-Commerce:</p>
+                <p class="Onerem">AI can be used to....</p>
+                <p class="Onerem">Enhance customer experience through personalized recommendations, 
+                  Demand forecasting, Inventory management, 
+                  and Chatbots for customer support.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/TransLogis1.png" alt="Trans-Logistics"> Trans-Logistics
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">Trans-Logistics:</p>
+                <p class="Onerem">AI can ....</p>
+                <p class="Onerem">Optimize Route  planning, Improve traffic management, 
+                  Enable autonomous vehicles, Enhance predictive maintenance, 
+                  and Streamline logistics operations.</p>
+             </div>
+            </div>
+          </div>
+        
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/Energy.png" alt="Energy"> Energy
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">Energy:</p>
+                <p class="Onerem">AI can ....</p>
+                <p class="Onerem">Optimize energy distribution, Enable predictive maintenance 
+                  for infrastructure, Enhance energy grid management, 
+                  and Optimize resource allocation.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/Agriculture.png" alt="Agriculture"> Agriculture
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">Agriculture:</p>
+                <p class="Onerem">AI can ....</p>
+                <p class="Onerem">Enable precision farming, Monitor crop health, 
+                  Optimize irrigation and Fertilization, 
+                  and provide Real-time pest detection.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ASolCard1 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="AISol-img" src="images/Media1.JPG" alt="E-Commerce"> Media & Entertainment
+              </div>
+              <div class="flip-card-back">  
+                <p class="Tworem">Media & Entertainment:</p>
+                <p class="Onerem">AI can ....</p>
+                <p class="Onerem">Personalize content recommendations, Enable content creation 
+                  and curation, Facilitate sentiment analysis, 
+                  and Automate Video and Audio analysis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+                  <!-- un comment the below section to enable Grid Layout -->
+          <!-- <div class="ASolCard1">
+            <img class="AISol-img izo1" src="images/HealthCare.png" alt="HealthCare"> Healthcare
+          </div>
+          <div class="ASolCard2">
+            <img class="AISol-img izo1" src="images/Finance.png" alt="Finance"> Finance
+          </div>
+          <div class="ASolCard3">
+            <img class="AISol-img izo1" src="images/MFG.png" alt="Manufacturing"> Manufacturing
+          </div>
+          <div class="ASolCard4">
+            <img class="AISol-img izo1" src="images/ECom.png" alt="E-Commerce"> E-Commerce
+          </div>
+          <div class="ASolCard5">
+            <img class="AISol-img izo1" src="images/TransLogis.png" alt="Trans_logistics"> Transport/Logistics
+          </div>
+          <div class="ASolCard">
+            <img class="AISol-img izo1" src="images/Energy.png" alt="Energy"> Energy & Utilities
+          </div>
+          <div class="ASolCard7">
+            <img class="AISol-img izo1" src="images/Agriculture.png" alt="Agriculture"> Agriculture
+          </div>
+          <div class="ASolCard8">
+            <img class="AISol-img izo1" src="images/Media.JPG" alt="MediaEnt"> Media/Entertainment
+          </div> -->
+        </div>
+      </div>
+
+    </section>
+    <section>
+       <!-- Products -->
+       <div class= "Products" id="Products">
+          <!-- <div class="ProdCards grid-3-col">
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> ABC
+                <button type="button" class="btn btn-warning">Buy !</button>
+              </div>
+
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> DEF
+              </div>
+
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> GHI
+              </div>
+
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> KLM
+              </div>
+
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> NOP
+              </div>
+
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> QRS
+              </div>
+
+              <div class="ProdCard1">
+                <img class="Prod-img" src="images/HealthCare.png" alt="HealthCare"> TUV
+              </div> 
+        </div>-->
+        <div class="Prod-txt">
+          <h1 class="Prod-h1">AI - Solutions:<br><br>
+          Revolutionizing the Future with AI Technology.
+          Discover cutting-edge solutions that drive innovation, empower businesses, and enhance lives.</h1>
+          <h1 class="Prod-h1"> These are just a few examples, and AI technologies have the potential 
+            to transform and benefit numerous other industries as well.</h1>
+        </div>
+       </div>
+
+          </div>
+
+
+    </section>
+    <section>
+      <!-- ContactUs -->
+    <!-- Footer -->
+    
+  <footer class="white-section" id="ContactUs"></footer>
+  <div class="container-footer">
+    <br>
+    <!-- <a href=https://www.linkedin.com/in/shaikhkaiser/ target="_blank" rel="noopener noreferrer" ><img src="https://img.icons8.com/color/30/null/linkedin.png"/></a> -->
+    <!-- <a href=https://twitter.com/itpro_kais target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/color/30/null/twitter--v1.png"/></a> -->
+    <a href="https://wa.me/917498076158" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/color/30/null/whatsapp--v1.png"/></a>
+    <a href=https://www.google.com/maps/place/Navratna+CHS+jeevan+aanand+sanstha+(shelter+)/@19.0821969,72.8445894,15z/data=!4m5!3m4!1s0x0:0x18ec826597fd9abb!8m2!3d19.0821969!4d72.8445894 target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/fluency/30/null/user-location.png"/></a>
+    <a href=mailto:support@enveraitech.com;><img src="https://img.icons8.com/fluency/30/null/apple-mail.png"/></a>
+      <!-- <i class="social-icon fab fa-facebook-f"></i> 
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>--><br>
+      <br>
+      <!-- <span><p>Site last updated : 24th May 2023.</p></span> <span><p>You are visitor No. &nbsp <img src="https://hitwebcounter.com/counter/counter.php?page=8330746&style=0005&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter" ><a href="https://www.hitwebcounter.com" target="_blank"></a> </p></span><span><p>© Copyright <p><script type="text/javascript">document. write( new Date(). getFullYear() );</script></p> -  Enver AITech.</p></span>  -->
+      <span><p>Site last updated : 04th April 2024.</p></span> <span><p>You are visitor No. &nbsp <img src="https://hitwebcounter.com/counter/counter.php?page=8330746&style=0005&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter" ><a href="https://www.hitwebcounter.com" target="_blank"></a> </p></span><span><p>Copyright © <script type="text/javascript">document. write( new Date(). getFullYear() );</script> -  Enver AITech.</p></span> 
+      <br>
     </div>
+    </footer>
+  </section>
+  
 
-    <script>
-        // Set the launch date and time
-        var launchDate = new Date("2024-04-02T09:30:00Z");
-
-        // Update the countdown every 1 second
-        var countdownInterval = setInterval(function() {
-            // Get current date and time
-            var now = new Date().getTime();
-
-            // Calculate the time remaining
-            var timeRemaining = launchDate - now;
-
-            // Calculate days, hours, minutes, and seconds
-            var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-
-            // Display the countdown
-            document.getElementById("days").textContent = days.toString().padStart(2, "0");
-            document.getElementById("hours").textContent = hours.toString().padStart(2, "0");
-            document.getElementById("minutes").textContent = minutes.toString().padStart(2, "0");
-            document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
-
-            // If the countdown is finished, display a message
-            if (timeRemaining < 0) {
-                clearInterval(countdownInterval);
-                document.getElementById("days").textContent = "00";
-                document.getElementById("hours").textContent = "00";
-                document.getElementById("minutes").textContent = "00";
-                document.getElementById("seconds").textContent = "00";
-                document.getElementById("countdown").textContent = "Launching Now!";
-            }
-        }, 1000);
-
-        // Array of quotes
-        var quotes = [
-            "Enhance efficiency and productivity with AI-powered automation.",
-            "Unlock valuable insights from data using advanced machine learning algorithms.",
-            "Improve decision-making with AI-driven predictive analytics.",
-            "Optimize processes and reduce costs with AI technology.",
-            "Deliver personalized customer experiences through AI-powered solutions.",
-            "Gain a competitive edge by leveraging the power of artificial intelligence.",
-            "Increase accuracy and precision with AI-based image and speech recognition.",
-            "Drive innovation and create new opportunities with AI technology.",
-            "Streamline operations and workflow using intelligent automation.",
-            "Transform your business with the limitless possibilities of AI.",
-            "AI is revolutionizing industries and transforming the way we live and work.",
-            "Harness the power of AI to unlock new possibilities and, drive innovation.",
-            "AI technology is the key to unlocking insights and making data-driven decisions.",
-            "Embrace AI to streamline operations and increase efficiency.",
-            "AI-powered automation is reshaping the future of work.",
-            "With AI, you can gain a competitive edge in a data-driven world.",
-            "AI algorithms can analyze vast amounts of data to uncover hidden patterns, and trends.",
-            "Leverage the power of AI to enhance customer experiences and personalize interactions.",
-            "AI-driven predictive analytics can optimize business strategies and drive growth.",
-            "AI-powered chatbots are revolutionizing customer support and engagement.",
-            "AI-powered virtual assistants are transforming how we interact with technology.",
-            "AI can revolutionize healthcare by enabling early disease detection and personalized treatments.",
-            "AI-powered recommendation systems can deliver personalized experiences and improve customer satisfaction.",
-            "AI technology is advancing autonomous vehicles and shaping the future of transportation.",
-            "AI-based image recognition is revolutionizing fields like security, healthcare and manufacturing.",
-            "AI-powered speech recognition is enabling seamless voice interactions and voice assistants.",
-            "AI-driven natural language processing is transforming how we interact with technology.",
-            "AI-powered robots are automating tasks and increasing productivity in various industries.",
-            "AI can analyze complex data sets to detect patterns and predict outcomes.",
-            "AI-powered virtual reality is revolutionizing gaming, entertainment, and immersive experiences.",
-            "AI can analyze social media data to gain valuable insights and drive marketing strateg,ies.",
-            "AI-powered fraud detection systems can help protect businesses and customers, from cyber threats.",
-            "AI algorithms can optimize supply chain management and reduce costs.",
-            "AI-driven recommendation engines can personalize content and improve user engagement.",
-            "AI is driving advancements in renewable energy and sustainable technologies.",
-            "AI-powered language translation is breaking down barriers and facilitating global communication.",
-            "AI can analyze customer behavior to optimize pricing strategies and increase revenue.",
-            "AI-based predictive maintenance can reduce downtime and increase the lifespan of equipment.",
-            "AI-powered financial analysis can assist in making informed investment decisions.",
-            "AI technology holds the potential to reshape industries and create a better future for all.",
-        ];
-
-        // Select a random quote and display it
-        function displayRandomQuote() {
-            var randomIndex = Math.floor(Math.random() * quotes.length);
-            var quoteElement = document.querySelector(".quote");
-            quoteElement.textContent = quotes[randomIndex];
-            quoteElement.style.display = "block";
-            quoteElement.style.left = Math.floor(Math.random() * (window.innerWidth - quoteElement.clientWidth)) + "px";
-            quoteElement.style.top = Math.floor(Math.random() * (window.innerHeight - quoteElement.clientHeight)) + "px";
-            setTimeout(function() {
-                quoteElement.style.display = "none";
-            }, 3000);
-        }
-
-        // Call the displayRandomQuote function initially and every 5 seconds
-        displayRandomQuote();
-        setInterval(displayRandomQuote, 5000);
-    </script>
 </body>
+
 </html>
+
+            
+    <!-- </div> -->
+      </body>
+      </html>
