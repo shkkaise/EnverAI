@@ -176,16 +176,30 @@
 }
 
 .launch-img img,
-.launch-img .title-image {
+.launch-img .title-image,
+.landing .launch-img img,
+.landing .launch-img .title-image,
+section.landing .launch-img img,
+section.landing .launch-img .title-image {
   opacity: 0;
   animation: fadeInRight 0.8s ease-out 0.9s forwards;
   transition: transform 6s ease, box-shadow 6s ease !important;
+  -webkit-transition: transform 6s ease, box-shadow 6s ease !important;
+  -moz-transition: transform 6s ease, box-shadow 6s ease !important;
+  -o-transition: transform 6s ease, box-shadow 6s ease !important;
   cursor: pointer;
 }
 
 .launch-img img:hover,
-.launch-img .title-image:hover {
+.launch-img .title-image:hover,
+.landing .launch-img img:hover,
+.landing .launch-img .title-image:hover,
+section.landing .launch-img img:hover,
+section.landing .launch-img .title-image:hover {
   transform: scale(1.2) !important;
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
   box-shadow: 0 15px 40px rgba(0,0,0,0.4) !important;
 }
 
