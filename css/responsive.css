@@ -200,7 +200,7 @@ p {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  transition: transform 6s ease, box-shadow 6s ease !important;
   transform: scale(1.0);
   cursor: pointer;
 }
@@ -633,7 +633,7 @@ p {
   /* Allow hover zoom for launch image even with reduced motion */
   .launch-img img,
   .launch-img .title-image {
-    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    transition: transform 6s ease, box-shadow 6s ease !important;
   }
   
   .flip-card:hover .flip-card-inner {

@@ -179,7 +179,7 @@
 .launch-img .title-image {
   opacity: 0;
   animation: fadeInRight 0.8s ease-out 0.9s forwards;
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  transition: transform 6s ease, box-shadow 6s ease !important;
   cursor: pointer;
 }
 
