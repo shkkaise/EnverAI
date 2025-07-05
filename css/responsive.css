@@ -189,7 +189,8 @@ p {
   padding: var(--spacing-lg);
 }
 
-.launch-img img {
+.launch-img img,
+.launch-img .title-image {
   width: 100%;
   max-width: 500px;
   height: auto;
@@ -201,11 +202,14 @@ p {
   border: 2px solid rgba(255, 255, 255, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transform: scale(1.0);
+  cursor: pointer;
 }
 
-.launch-img img:hover {
-  transform: scale(1.2);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+.launch-img img:hover,
+.launch-img .title-image:hover {
+  transform: scale(1.2) !important;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .launch-txt {
@@ -625,6 +629,11 @@ p {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+  
+  /* Allow hover zoom for launch image even with reduced motion */
+  .launch-img img {
+    transition-duration: 0.3s !important;
   }
   
   .flip-card:hover .flip-card-inner {
