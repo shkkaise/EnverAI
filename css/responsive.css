@@ -200,7 +200,7 @@ p {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   transform: scale(1.0);
   cursor: pointer;
 }
@@ -209,7 +209,6 @@ p {
 .launch-img .title-image:hover {
   transform: scale(1.2) !important;
   box-shadow: 0 15px 40px rgba(0,0,0,0.4) !important;
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 .launch-txt {
@@ -632,8 +631,9 @@ p {
   }
   
   /* Allow hover zoom for launch image even with reduced motion */
-  .launch-img img {
-    transition-duration: 0.3s !important;
+  .launch-img img,
+  .launch-img .title-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   }
   
   .flip-card:hover .flip-card-inner {

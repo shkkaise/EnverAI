@@ -179,7 +179,7 @@
 .launch-img .title-image {
   opacity: 0;
   animation: fadeInRight 0.8s ease-out 0.9s forwards;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
   cursor: pointer;
 }
 
@@ -187,7 +187,6 @@
 .launch-img .title-image:hover {
   transform: scale(1.2) !important;
   box-shadow: 0 15px 40px rgba(0,0,0,0.4) !important;
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 /* Flip Card Enhancements */
