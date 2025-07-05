@@ -332,6 +332,17 @@ p {
 
 /* Responsive Breakpoints */
 
+/* Mobile Text Color Fixes for All Mobile Devices */
+@media screen and (max-width: 767px) {
+  .nav-link {
+    color: #333 !important;
+  }
+  
+  .nav-link:hover {
+    color: #66BFBF !important;
+  }
+}
+
 /* Ultra Small Mobile (320px and below) */
 @media screen and (max-width: 320px) {
   :root {
@@ -347,11 +358,28 @@ p {
   
   .navbar-brand {
     font-size: 1.25rem;
+    color: #333 !important;
   }
   
   .navbar-brand img {
     width: 35px;
     height: 35px;
+  }
+  
+  /* Fix text colors for mobile visibility */
+  .AboutUs-txt h2,
+  .AboutUs-txt p {
+    color: #333 !important;
+  }
+  
+  .AISol-txt h2,
+  .AISol-txt p {
+    color: #333 !important;
+  }
+  
+  .flip-card-front h3,
+  .flip-card-front p {
+    color: #333 !important;
   }
   
   .landing {
@@ -386,6 +414,10 @@ p {
 
 /* Small Mobile (375px) */
 @media screen and (min-width: 321px) and (max-width: 375px) {
+  .navbar-brand {
+    color: #333 !important;
+  }
+  
   .landing {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
@@ -399,17 +431,57 @@ p {
   .AISolCards {
     grid-template-columns: 1fr;
   }
+  
+  /* Fix text colors for mobile visibility */
+  .AboutUs-txt h2,
+  .AboutUs-txt p {
+    color: #333 !important;
+  }
+  
+  .AISol-txt h2,
+  .AISol-txt p {
+    color: #333 !important;
+  }
+  
+  .flip-card-front h3,
+  .flip-card-front p {
+    color: #333 !important;
+  }
 }
 
 /* Medium Mobile (425px) */
 @media screen and (min-width: 376px) and (max-width: 425px) {
+  .navbar-brand {
+    color: #333 !important;
+  }
+  
   .AISolCards {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  /* Fix text colors for mobile visibility */
+  .AboutUs-txt h2,
+  .AboutUs-txt p {
+    color: #333 !important;
+  }
+  
+  .AISol-txt h2,
+  .AISol-txt p {
+    color: #333 !important;
+  }
+  
+  .flip-card-front h3,
+  .flip-card-front p {
+    color: #333 !important;
   }
 }
 
 /* Large Mobile (768px) */
 @media screen and (min-width: 426px) and (max-width: 767px) {
+  .navbar-brand {
+    color: #333 !important;
+  }
+  
   .navbar-nav {
     display: none; /* Show hamburger menu */
   }
@@ -424,6 +496,22 @@ p {
   
   .AISolCards {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  /* Fix text colors for mobile visibility */
+  .AboutUs-txt h2,
+  .AboutUs-txt p {
+    color: #333 !important;
+  }
+  
+  .AISol-txt h2,
+  .AISol-txt p {
+    color: #333 !important;
+  }
+  
+  .flip-card-front h3,
+  .flip-card-front p {
+    color: #333 !important;
   }
 }
 
