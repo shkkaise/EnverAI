@@ -178,6 +178,12 @@
 .launch-img img {
   opacity: 0;
   animation: fadeInRight 0.8s ease-out 0.9s forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.launch-img img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
 }
 
 /* Flip Card Enhancements */
